@@ -42,7 +42,7 @@ TODO
 
 ---
 ### Step #3 - Execute
-1. Ensure your Cloudera Watsonx NiFi Flow is started. If it's not, do the following to start it -- CDF Dashboard >> Deployment Manager >> Action >> Start Flow.
+1. Ensure your Cloudera Watsonx NiFi flow is started. If it's not, do the following to start it -- CDF Dashboard >> Deployment Manager >> Action >> Start Flow.
 2. Drop files in your S3 Bucket's input path. A couple of sample input files are provided in ```assets``` directory for reference.
 
 ![image](/assets/IMG-S3_Input.png)
@@ -51,8 +51,12 @@ TODO
 
 ![image](/assets/IMG-S3_Output.png)
 
-4. You can also go in Hue and query the table.
+4. You can also go in Hue and query the table - ```SELECT * FROM default.model_response;```.
+
 ![image](/assets/IMG-Hue_Output.png)
 
-5. 
+5. At the end, this NiFi flow sends out a notification email to the user.
+
+![image](/assets/IMG-Email.png)
+
 ---
