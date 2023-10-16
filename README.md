@@ -38,7 +38,7 @@ TODO
 ### Step #2 - Setup Cloudera Data Warehouse (CDW)
 - Go to CDW user interface. Ensure CDW service is activated in your CDP environment, and a Database Catalog & a Virtual Warehouse compute cluster are available for use.
 - In Hue editor, execute [query.sql](/query.sql). This query creates an external table that points to your S3 Bucket's output path. **Please change AWS S3 location in the query before executing it.**
-- After the query execution is successful, you will be able to see ```model_response``` table under default database.
+- After the query execution is successful, you will see ```model_response``` table under default database.
 
 ---
 ### Step #3 - Execute
@@ -46,9 +46,13 @@ TODO
 2. Drop files in your S3 Bucket's input path. A couple of sample input files are provided in ```assets``` directory for reference.
 
 ![image](/assets/IMG-S3_Input.png)
+
 3. After a few seconds, notice the output in your S3 Bucket's output path.
 
 ![image](/assets/IMG-S3_Output.png)
 
-4. 
+4. You can also go in Hue and query the table.
+![image](/assets/IMG-Hue_Output.png)
+
+5. 
 ---
