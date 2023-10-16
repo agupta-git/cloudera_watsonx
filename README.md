@@ -1,3 +1,12 @@
-# cloudera_watsonx
+# Cloudera & Watsonx.ai Demo
 
-![image](https://github.com/agupta-git/cloudera_watsonx/assets/2523891/08f2cecc-fc59-4a96-8202-ecc7fb3a4379)
+## Use Case
+
+## Design
+![image](https://github.com/agupta-git/cloudera_watsonx/assets/2523891/55df9922-0675-424b-9494-d5afcd7392ae)
+
+## Implementation
+### Prerequisites
+### Step 1
+### Step 2
+### Step 3
