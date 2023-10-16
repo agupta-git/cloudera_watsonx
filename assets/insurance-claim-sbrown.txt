@@ -1,0 +1,38 @@
+Insurance Claim Letter for Reimbursement
+From: __Susan Brown_________
+Sender's Name
+____4030 Summer Street____________
+_________________________________
+Sender's Address
+____Los Angeles, CA 90045_________
+City, State, ZIP Code
+____sbrn1234@gmail.com_________
+Sender's email
+To:____UltraCo Insurance________
+Recipient's Name
+_______2093 Lakewood Drive______
+_________________________________
+Recipient's Address
+______Sayreville, NJ 08872________
+City, State, ZIP Code
+____September 21, 2023_____________
+Date
+To Whom It May Concern,
+My name is __Susan Brown_______ and I have an active medical insurance policy with
+your company. The policy number is _200032218_______. I am writing this letter to
+claim reimbursement for $799.20 for a custom crown provided by Smiley Boutique,
+who is an in-network provider for UltraCo Insurance.
+Enclosed with this letter are the following supporting documents for your reference and
+review:
+I am including the previous EOB that UltraCo says under the SpecialDentalPlus plan
+that Smiley Boutique is not a network provider. I am also including a copy of the
+UltraCo website page that lists Smiley Boutique as an in-network provider.
+According to section __15.2__ of the policy, I am entitled to __80__% reimbursement.
+Kindly acknowledge the receiving of this claim and advise whether I have to fill some
+form or whether you require other documents to complete the claim request.
+Looking forward to your response and cooperation.
+Sincerely,
+__Susan Brown_______________
+Sender's Name
+__Susan Brown__________________
+Sender's Signature
