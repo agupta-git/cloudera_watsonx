@@ -30,6 +30,9 @@ TODO
 - After deployment is done, you would be able to see the flow in Dashboard.
 - All NiFi Flow parameters can be updated while the flow is running, from Deployment Manager. As soon as you Apply Changes, running processors that are impacted by the Parameter changes will automatically be restarted.
 
+![image](/assets/NiFi_1.png)
+
+![image](/assets/NiFi_2.png)
 
 ---
 ### Step #2 - Cloudera Data Warehouse (CDW)
