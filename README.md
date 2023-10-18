@@ -8,11 +8,13 @@ The purpose of this article is to showcase a reusable data pipeline using Cloude
 ## Design
 ![image](https://github.com/agupta-git/cloudera_watsonx/assets/2523891/55df9922-0675-424b-9494-d5afcd7392ae)
 
-**Explanation:**
+**Design Explanation:**
 - Based on the incoming documents in AWS S3 bucket, NiFi prepares the input for all the watsonx.ai models.
 - NiFi calls watsonx.ai model (granite-13b-instruct-v1) to Extract the key fields in the document.
 - NiFi calls watsonx.ai model (granite-13b-chat-v1) to Summarize the information in the document.
 - NiFi calls watsonx.ai model (granite-13b-instruct-v1) to generate an Email with all the necessary information, for the user who submitted the document.
+- Using the generated response, NiFi prepares and sends an email to the user.
+- NiFi stores all the responses from the model invocations in AWS S3 bucket, which are eventually read by the Hive table in Data Warehouse.
 
 ## Implementation
 ### Prerequisites
