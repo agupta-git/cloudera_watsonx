@@ -23,6 +23,7 @@ The purpose of this article is to showcase a reusable data pipeline using Cloude
 - Get IAM Token from IBM
   1. Create IBM API Key [here](https://cloud.ibm.com/iam/apikeys).
   2. Get Token - ```curl -X POST 'https://iam.cloud.ibm.com/identity/token' -H 'Content-Type: application/x-www-form-urlencoded' -d 'grant_type=urn:ibm:params:oauth:grant-type:apikey&apikey=_<YOUR_API_KEY>_'```
+     > Note that this token expires in one hour.
 ---
 ### Step #1 - Setup Cloudera DataFlow (CDF)
 - Go to CDF user interface, and ensure CDF service is enabled in your CDP environment.
@@ -36,7 +37,6 @@ The purpose of this article is to showcase a reusable data pipeline using Cloude
   - **s3_output_path** - Subdirectory in AWS S3 bucket in which you're storing your output data. Eg: data/watsonx_response.
   - **watsonx_model_url** - IBM Watsonx.ai model URL. Eg: https://us-south.ml.cloud.ibm.com/ml/v1-beta/generation/text?version=2023-05-29.
   - **watsonx_bearer_token** - IBM's IAM Token that you retrieved earlier in the prerequisites.
-    > Note that this token expires every hour.
 - Extra Small NiFi node size is enough for this data ingestion.
 - After deployment is done, you would be able to see the flow in Dashboard.
 - All NiFi Flow parameters can be updated while the flow is running, from Deployment Manager. As soon as you Apply Changes, running processors that are impacted by the Parameter changes will automatically be restarted.
