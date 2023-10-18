@@ -20,7 +20,7 @@ The purpose of this article is to showcase a reusable data pipeline using Cloude
 ### Prerequisites
 - A Cloudera Data Platform (CDP) Public Cloud environment on Amazon Web Services (AWS). If you don't have an existing environment, follow instructions here to set one up - [CDP/AWS Quick Start Guide](https://docs.cloudera.com/cdp-public-cloud/cloud/aws-quickstart/topics/mc-aws-quickstart.html).
 - [IBM Cloud account](https://www.ibm.com/cloud).
-- Get IBM's IAM Token
+- Get IAM Token from IBM
   1. Create IBM API Key [here](https://cloud.ibm.com/iam/apikeys).
   2. Get Token - ```curl -X POST 'https://iam.cloud.ibm.com/identity/token' -H 'Content-Type: application/x-www-form-urlencoded' -d 'grant_type=urn:ibm:params:oauth:grant-type:apikey&apikey=_<YOUR_API_KEY>_'```
 ---
