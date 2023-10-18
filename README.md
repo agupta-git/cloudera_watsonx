@@ -1,9 +1,18 @@
-# Cloudera & Watsonx.ai Demo
+# Cloudera & IBM watsonx.ai Demo
 
-## Use Case
-TODO
+## Overview
+Cloudera and IBM have partnered to create an industry-leading, enterprise-grade data and AI services using open source ecosystems — all designed to achieve faster data and analytics at scale.
+
+The purpose of this article is to showcase a reusable data pipeline using Cloudera's [DataFlow](https://www.cloudera.com/products/dataflow.html) & [Data Warehouse](https://www.cloudera.com/products/data-warehouse.html), and IBM's [watsonx.ai](https://www.ibm.com/products/watsonx-ai).
+
 ## Design
 ![image](https://github.com/agupta-git/cloudera_watsonx/assets/2523891/55df9922-0675-424b-9494-d5afcd7392ae)
+
+**Explanation:**
+- Based on the incoming documents in AWS S3 bucket, NiFi prepares the input for all the watsonx.ai models.
+- NiFi calls watsonx.ai model (granite-13b-instruct-v1) to Extract the key fields in the document.
+- NiFi calls watsonx.ai model (granite-13b-chat-v1) to Summarize the information in the document.
+- NiFi calls watsonx.ai model (granite-13b-instruct-v1) to generate an Email with all the necessary information, for the user who submitted the document.
 
 ## Implementation
 ### Prerequisites
