@@ -75,7 +75,7 @@ The purpose of this article is to showcase a reusable data pipeline using Cloude
 
 ![image](/assets/IMG-Hue_Output.png)
 
-5. At the end, this NiFi flow sends out a notification email to the user.
+5. In the end, this NiFi flow sends out a notification email to the user.
 
 ![image](/assets/IMG-Email.png)
 
