@@ -80,3 +80,6 @@ This article shows an end-to-end flow to process real-time unstructured data wit
 ![image](/assets/IMG-Email.png)
 
 ---
+
+## Demo Recording
+Youtube link coming soon!
