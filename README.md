@@ -6,7 +6,7 @@ Cloudera and IBM have partnered to create an industry-leading, enterprise-grade 
 This article shows an end-to-end flow to process real-time unstructured data with GenAI using Cloudera's [DataFlow](https://www.cloudera.com/products/dataflow.html) & [Data Warehouse](https://www.cloudera.com/products/data-warehouse.html), and IBM's [watsonx.ai](https://www.ibm.com/products/watsonx-ai). 
 
 ## Design
-![image](https://github.com/agupta-git/cloudera_watsonx/assets/2523891/7e73114b-6e09-492e-84fa-5789da47ebed)
+![image](https://github.com/agupta-git/cloudera_watsonx/assets/2523891/8ac389ab-7cae-43f2-83fc-90fcd0214495)
 
 **Design Explanation:**
 - Based on the incoming documents in AWS S3 bucket, NiFi prepares the input for all the watsonx.ai models.
@@ -62,7 +62,7 @@ This article shows an end-to-end flow to process real-time unstructured data wit
 
 ---
 ### Step #3 - Execute
-1. Ensure your Cloudera Watsonx NiFi flow is started. If it's not, do the following to start it -- CDF Dashboard >> Deployment Manager >> Action >> Start Flow.
+1. Ensure your Cloudera Watsonx Flow is started. If it's not, do the following to start it -- CDF Dashboard >> Deployment Manager >> Action >> Start Flow.
 2. Drop files in your S3 Bucket's input path. A couple of sample input files are provided in ```assets``` directory for reference.
 
 ![image](/assets/IMG-S3_Input.png)
@@ -75,7 +75,7 @@ This article shows an end-to-end flow to process real-time unstructured data wit
 
 ![image](/assets/IMG-Hue_Output.png)
 
-5. In the end, this NiFi flow sends out a notification email to the user.
+5. In the end, a notification email goes out to the user acknowledging the receipt of the document.
 
 ![image](/assets/IMG-Email.png)
 
