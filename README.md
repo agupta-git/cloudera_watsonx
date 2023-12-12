@@ -82,4 +82,4 @@ This article shows an end-to-end flow to process real-time unstructured data wit
 ---
 
 ## Demo Recording
-Youtube link coming soon!
+Available [here](https://mediacenter.ibm.com/media/1_pk77he7i) on IBM Media Center.
