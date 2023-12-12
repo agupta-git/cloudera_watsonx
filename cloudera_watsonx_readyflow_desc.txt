@@ -1,0 +1,9 @@
+"name": "Text summarization using IBM watsonx.ai",
+"summary": "Invokes LLMs in IBM watsonx.ai to summarize text.",
+"description": "This ReadyFlow reads input data from AWS S3 directory and invokes large language models in watsonx.ai (such as ibm/granite-13b-chat-v1) to summarize the input data. Response from the model is placed in AWS S3 output directory. Ensure you have AWS user credentials, IBM account and IBM project available to use before you begin deploying this template. IBM cloud account can be accessed here - https://www.ibm.com/cloud and IBM API Key can be created here - https://cloud.ibm.com/iam/apikeys.",
+"notes": "This is a simple flow to showcase how to call IBM watsonx.ai LLMs from Cloudera DataFlow. Multiple enhancements such as error handling, updates to model parameters and so on, will be required to put this flow in to production.",
+"documentationLink": "TBD",
+"source": "CDP managed Amazon S3",
+"sourceDataFormat": "TXT",
+"destination": "CDP managed Amazon S3",
+"destinationDataFormat": "TXT"
