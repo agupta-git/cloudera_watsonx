@@ -10,7 +10,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS default.model_response (
 )
 ROW FORMAT SERDE
     'org.apache.hive.hcatalog.data.JsonSerDe'
-LOCATION 's3a://iceberg-presto/data/watsonx_response/'
+LOCATION 's3a://amer-hol/my-data/cdpwxaidemo/output/'
 ;
 
 SELECT * FROM default.model_response;
